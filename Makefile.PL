@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Module for reading SAM files generated from STAR aligner",
+  "ABSTRACT" => "GenOO framework extension to read SAM files created by the STAR aligner",
   "AUTHOR" => "Emmanouil \"Manolis\" Maragkakis <mns.marag\@gmail.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -35,7 +35,7 @@ my %WriteMakefileArgs = (
     "base" => 0,
     "strict" => 0
   },
-  "VERSION" => "0.0.1",
+  "VERSION" => "0.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }

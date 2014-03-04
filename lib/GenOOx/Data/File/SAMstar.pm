@@ -2,11 +2,12 @@
 
 =head1 NAME
 
-GenOOx::Data::File::SAMstar - Module for reading SAM files generated from STAR aligner
+GenOOx::Data::File::SAMstar - GenOO framework extension to read SAM files created by the STAR aligner
 
 =head1 SYNOPSIS
 
-This module is a plugin for the GenOO framework. Include it in your script and ask GenOO SAM parser to use it.
+GenOO framework extension to read SAM files created by the STAR aligner.
+Include it in your script and ask GenOO SAM parser to use it.
 
     use GenOOx::Data::File::SAMstar::Record;
 
@@ -48,7 +49,7 @@ The GenOO framework SAM parser avoids code that is unique to specific programs a
 # Let the code begin...
 
 package GenOOx::Data::File::SAMstar;
-
+$GenOOx::Data::File::SAMstar::VERSION = '0.0.2';
 
 #######################################################################
 #######################   Load External modules   #####################

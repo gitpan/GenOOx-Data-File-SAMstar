@@ -37,7 +37,7 @@ GenOOx::Data::File::SAMstar::Record - Represents a record of a SAM format file g
 # Let the code begin...
 
 package GenOOx::Data::File::SAMstar::Record;
-
+$GenOOx::Data::File::SAMstar::Record::VERSION = '0.0.2';
 
 #######################################################################
 #######################   Load External modules   #####################
